@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71DB979B314B8DA446BF727C /* Pods_DKMWODisplayUsingGoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BE5D27D41C333BC5698ED16 /* Pods_DKMWODisplayUsingGoogleSignIn.framework */; };
+		8D1415E023050B2300413FB0 /* WOController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1415DF23050B2300413FB0 /* WOController.swift */; };
+		8D18AC3523039B5500B3C865 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18AC3423039B5500B3C865 /* AppDelegate.swift */; };
+		8D18AC3723039B5500B3C865 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18AC3623039B5500B3C865 /* ViewController.swift */; };
+		8D18AC3A23039B5500B3C865 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D18AC3823039B5500B3C865 /* Main.storyboard */; };
+		8D18AC3D23039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D18AC3B23039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn.xcdatamodeld */; };
+		8D18AC3F23039B5600B3C865 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D18AC3E23039B5600B3C865 /* Assets.xcassets */; };
+		8D18AC4223039B5600B3C865 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D18AC4023039B5600B3C865 /* LaunchScreen.storyboard */; };
+		8D18AC4A23039D9A00B3C865 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D18AC4923039D9A00B3C865 /* credentials.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		302C8E7103ECC415FEB61A3A /* Pods-DKMWODisplayUsingGoogleSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKMWODisplayUsingGoogleSignIn.release.xcconfig"; path = "Target Support Files/Pods-DKMWODisplayUsingGoogleSignIn/Pods-DKMWODisplayUsingGoogleSignIn.release.xcconfig"; sourceTree = "<group>"; };
+		5D9A11AF453E146C8D323385 /* Pods-DKMWODisplayUsingGoogleSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKMWODisplayUsingGoogleSignIn.debug.xcconfig"; path = "Target Support Files/Pods-DKMWODisplayUsingGoogleSignIn/Pods-DKMWODisplayUsingGoogleSignIn.debug.xcconfig"; sourceTree = "<group>"; };
+		6BE5D27D41C333BC5698ED16 /* Pods_DKMWODisplayUsingGoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKMWODisplayUsingGoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1415DF23050B2300413FB0 /* WOController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOController.swift; sourceTree = "<group>"; };
+		8D18AC3123039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKMWODisplayUsingGoogleSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D18AC3423039B5500B3C865 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D18AC3623039B5500B3C865 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D18AC3923039B5500B3C865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D18AC3C23039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DKMWODisplayUsingGoogleSignIn.xcdatamodel; sourceTree = "<group>"; };
+		8D18AC3E23039B5600B3C865 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D18AC4123039B5600B3C865 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D18AC4323039B5600B3C865 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D18AC4923039D9A00B3C865 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D18AC2E23039B5500B3C865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DB979B314B8DA446BF727C /* Pods_DKMWODisplayUsingGoogleSignIn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31A1B965032B0AB10E23E95A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D9A11AF453E146C8D323385 /* Pods-DKMWODisplayUsingGoogleSignIn.debug.xcconfig */,
+				302C8E7103ECC415FEB61A3A /* Pods-DKMWODisplayUsingGoogleSignIn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4611FD37FD97529D776D01C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BE5D27D41C333BC5698ED16 /* Pods_DKMWODisplayUsingGoogleSignIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D18AC2823039B5500B3C865 = {
+			isa = PBXGroup;
+			children = (
+				8D18AC3323039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn */,
+				8D18AC3223039B5500B3C865 /* Products */,
+				31A1B965032B0AB10E23E95A /* Pods */,
+				4611FD37FD97529D776D01C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D18AC3223039B5500B3C865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D18AC3123039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D18AC3323039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				8D18AC4923039D9A00B3C865 /* credentials.plist */,
+				8D18AC3423039B5500B3C865 /* AppDelegate.swift */,
+				8D18AC3623039B5500B3C865 /* ViewController.swift */,
+				8D18AC3823039B5500B3C865 /* Main.storyboard */,
+				8D1415DF23050B2300413FB0 /* WOController.swift */,
+				8D18AC3E23039B5600B3C865 /* Assets.xcassets */,
+				8D18AC4023039B5600B3C865 /* LaunchScreen.storyboard */,
+				8D18AC4323039B5600B3C865 /* Info.plist */,
+				8D18AC3B23039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn.xcdatamodeld */,
+			);
+			path = DKMWODisplayUsingGoogleSignIn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D18AC3023039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D18AC4623039B5600B3C865 /* Build configuration list for PBXNativeTarget "DKMWODisplayUsingGoogleSignIn" */;
+			buildPhases = (
+				595F306A7EE1ED7B9DAF2106 /* [CP] Check Pods Manifest.lock */,
+				8D18AC2D23039B5500B3C865 /* Sources */,
+				8D18AC2E23039B5500B3C865 /* Frameworks */,
+				8D18AC2F23039B5500B3C865 /* Resources */,
+				EBA7DF5D09EF00F22710289D /* [CP] Embed Pods Frameworks */,
+				8FE4F7364BCB361BC69816A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKMWODisplayUsingGoogleSignIn;
+			productName = DKMWODisplayUsingGoogleSignIn;
+			productReference = 8D18AC3123039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D18AC2923039B5500B3C865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "DHIRAJ KUMAR MASODGI";
+				TargetAttributes = {
+					8D18AC3023039B5500B3C865 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8D18AC2C23039B5500B3C865 /* Build configuration list for PBXProject "DKMWODisplayUsingGoogleSignIn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D18AC2823039B5500B3C865;
+			productRefGroup = 8D18AC3223039B5500B3C865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D18AC3023039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D18AC2F23039B5500B3C865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D18AC4223039B5600B3C865 /* LaunchScreen.storyboard in Resources */,
+				8D18AC4A23039D9A00B3C865 /* credentials.plist in Resources */,
+				8D18AC3F23039B5600B3C865 /* Assets.xcassets in Resources */,
+				8D18AC3A23039B5500B3C865 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		595F306A7EE1ED7B9DAF2106 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DKMWODisplayUsingGoogleSignIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FE4F7364BCB361BC69816A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DKMWODisplayUsingGoogleSignIn/Pods-DKMWODisplayUsingGoogleSignIn-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DKMWODisplayUsingGoogleSignIn/Pods-DKMWODisplayUsingGoogleSignIn-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DKMWODisplayUsingGoogleSignIn/Pods-DKMWODisplayUsingGoogleSignIn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA7DF5D09EF00F22710289D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DKMWODisplayUsingGoogleSignIn/Pods-DKMWODisplayUsingGoogleSignIn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DKMWODisplayUsingGoogleSignIn/Pods-DKMWODisplayUsingGoogleSignIn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DKMWODisplayUsingGoogleSignIn/Pods-DKMWODisplayUsingGoogleSignIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D18AC2D23039B5500B3C865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D18AC3723039B5500B3C865 /* ViewController.swift in Sources */,
+				8D18AC3D23039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn.xcdatamodeld in Sources */,
+				8D18AC3523039B5500B3C865 /* AppDelegate.swift in Sources */,
+				8D1415E023050B2300413FB0 /* WOController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D18AC3823039B5500B3C865 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D18AC3923039B5500B3C865 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D18AC4023039B5600B3C865 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D18AC4123039B5600B3C865 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D18AC4423039B5600B3C865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		8D18AC4523039B5600B3C865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D18AC4723039B5600B3C865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9A11AF453E146C8D323385 /* Pods-DKMWODisplayUsingGoogleSignIn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5PMPRRJ5L;
+				INFOPLIST_FILE = DKMWODisplayUsingGoogleSignIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkm.DKMWODisplayUsingGoogleSignIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D18AC4823039B5600B3C865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302C8E7103ECC415FEB61A3A /* Pods-DKMWODisplayUsingGoogleSignIn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X5PMPRRJ5L;
+				INFOPLIST_FILE = DKMWODisplayUsingGoogleSignIn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dkm.DKMWODisplayUsingGoogleSignIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D18AC2C23039B5500B3C865 /* Build configuration list for PBXProject "DKMWODisplayUsingGoogleSignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D18AC4423039B5600B3C865 /* Debug */,
+				8D18AC4523039B5600B3C865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D18AC4623039B5600B3C865 /* Build configuration list for PBXNativeTarget "DKMWODisplayUsingGoogleSignIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D18AC4723039B5600B3C865 /* Debug */,
+				8D18AC4823039B5600B3C865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8D18AC3B23039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8D18AC3C23039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn.xcdatamodel */,
+			);
+			currentVersion = 8D18AC3C23039B5500B3C865 /* DKMWODisplayUsingGoogleSignIn.xcdatamodel */;
+			path = DKMWODisplayUsingGoogleSignIn.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8D18AC2923039B5500B3C865 /* Project object */;
+}
